@@ -1,0 +1,143 @@
+.Pokedex{
+  max-width: 1400px;
+  margin: 20px auto;
+}
+
+.Pokedex__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.pokedex-welcome{
+  background-color: #DD1A1A;
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  border-radius: 4px;
+  margin: 27px;
+  text-align: center;
+  color: white;
+  font: small-caps 100%/200% serif;
+  font-size: 20px;
+}
+
+.pokedex-name-trainer{
+  color: white;
+}
+.pokedex-search-box{
+  display: flex;
+  justify-content: center;
+  margin: 27px;
+}
+
+.pokedex-search-box input{
+  display: block;
+  width: 100%;
+  font-size: 14px;
+  font: small-caps 100%/200% serif;
+  border: 3;
+  border-color: #DD1A1A;
+  padding: 15px 30px 15px 30px;
+  margin: 0;
+  line-height: 1;
+  background-color: transparent;
+  transition: 0.15s ease margin-top;
+  cursor: auto;
+  background-color: rgb(239, 245, 245);
+  border-radius: 10px;
+
+}
+.pokedex-search-box input:focus{
+  outline: none;
+  border: none;
+  background-color: #ecbcbc;
+  transition:none;
+}
+
+
+.pokedex-search-box-child{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+.pokedex-search-box button{
+  background-color: #DD1A1A;
+display: flex;
+justify-content: center;
+border: none;
+outline: none;
+margin-left: 2px;
+font-size: 25px;
+padding: 12px;
+color: rgb(237, 243, 238);
+margin-right: 10px;
+border-radius: 10px;
+cursor: pointer;
+font: small-caps 100%/200% serif;
+
+}
+
+.pokedex-search-box button::hover{
+  background-color: #195951;
+}
+
+.pokedex-search-box form{
+  align-self: center;
+  display: inline-flex;
+align-items: center;
+}
+
+.pokedex-options{
+  display: flex;
+  justify-content: right;
+  border: none;
+  border-radius: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 14px;
+font-style: italic;
+font-weight: 500;
+}
+.containter-sbox{
+  display: flex;
+  width:70%;
+  justify-content: right;
+}
+
+.container-category{
+  width: 40%;
+  display: flex;
+  justify-content: right;
+}
+
+.navigation {
+  display: flex;
+}
+.navigation {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  position: relative;
+  gap: 10px;
+  color: white;
+}
+.navigation ul {
+  margin-bottom: 9px;
+}
+
+.navigation li {
+  display: inline-flex;
+  justify-content: initial;
+  margin: 0 10px 0 0;
+  padding: 12px;
+  background-color: #DD1A1A;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.navigation li:hover {
+  background-color: #DD1A1A;
+}

@@ -36,6 +36,7 @@
   height: 180px;
   background: linear-gradient(178.92deg, #7EC6C5 0.92%, #ABDAC6 47.96%, #CAE099 99.08%);
   border-radius: 4px 4px 0px 0px;
+  box-shadow: 1px 1px 18px rgb(132, 132, 132);
 }
 
 .pokemon__img {
@@ -48,6 +49,15 @@
 
 .all__Charac {
   margin-top: 40px;
+  background-color: #dafc8a2d;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative;
+  width: 900px;
+  height: 1150px;
+  box-shadow: 1px 1px 18px rgb(132, 132, 132);
+  
 }
 
 .number {
